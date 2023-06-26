@@ -1,0 +1,27 @@
+.section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    & form {
+        display:flex;
+        flex-direction: column;
+        gap:7px;
+        min-width: 350px;
+        & label {
+            display:flex;
+            flex-direction: column;
+            gap:5px;
+        }
+    }
+}
+.currencyBox {
+    display:flex;
+    gap:5px;
+}
+
+.error {
+    color:red;
+}
